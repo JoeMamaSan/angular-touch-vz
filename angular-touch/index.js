@@ -1,2 +1,2 @@
-require('./angular-touch');
+require('./angular-touch-vz');
 module.exports = 'ngTouch';
