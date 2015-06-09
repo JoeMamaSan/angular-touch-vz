@@ -347,11 +347,12 @@ ngTouch.directive('ngClick', ['$parse', '$timeout', '$rootElement',
     }
 
     // If we didn't find an allowable region, bust the click.
-    event.stopPropagation();
-    event.preventDefault();
+    // commented lines for fastclick like fix
+    //event.stopPropagation();
+    //event.preventDefault();
 
     // Blur focused form elements
-    event.target && event.target.blur();
+    //event.target && event.target.blur();
   }
 
 
